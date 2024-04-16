@@ -1,0 +1,6 @@
+{
+	"title": "Horizontal Cards",
+	"slug": "apsc-patterns/horizontal-card",
+	"categories": ["apsc-patterns","apsc-cards"],
+	"description": "Set up as a group of Media & Text blocks. The class card-rows is applied to the group, both the classes card card--horiz are applied to each Media & Text block, the card links are applied on the image. Cards are displayed horizontally with the image on the left. On smaller screens (<640px), cards revert to a vertical display with the image on top."
+}

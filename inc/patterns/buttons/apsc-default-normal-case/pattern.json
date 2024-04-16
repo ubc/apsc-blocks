@@ -1,0 +1,6 @@
+{
+	"title": "Default Button with normal case text.",
+	"slug": "apsc-patterns/default-button-normal-case",
+	"categories": ["apsc-patterns","apsc-buttons"],
+	"description": "Use when do not want to use default upper-case."
+}

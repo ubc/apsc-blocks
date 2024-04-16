@@ -1,0 +1,47 @@
+/**
+ * The Pagination styles in the APSC Style guide rely on markup that the
+ * Query Loop Block doesn't output. So we'll adjust that here, with the intention
+* that this file can be removed in the future.
+ */
+.wp-block-query-pagination:has(.wp-block-query-pagination-numbers.is-style-apsc-page-numbers) {
+	gap: 0;
+}
+
+.is-style-apsc-page-numbers.wp-block-query-pagination-numbers {
+	margin: 1em 0 0 0 !important;
+}
+
+.is-style-apsc-page-numbers.wp-block-query-pagination-numbers span,
+.is-style-apsc-page-numbers.wp-block-query-pagination-numbers a {
+	padding: 12px;
+	color: #002145;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.75;
+	margin: 0;
+}
+
+.is-style-apsc-page-numbers.wp-block-query-pagination-numbers a {
+	text-decoration: none;
+}
+
+.is-style-apsc-page-numbers.wp-block-query-pagination-numbers span.current {
+	background: #C5C5C5;
+}
+
+.is-style-apsc-page-numbers.wp-block-query-pagination-numbers a:hover,
+.is-style-apsc-page-numbers.wp-block-query-pagination-numbers a:focus,
+.is-style-apsc-page-numbers.wp-block-query-pagination-numbers a:active {
+	background-color: #002145;
+	color: #fff;
+}
+
+/**
+ * With the margin top we give the pagination numbers, the arrows look weird, so we
+ * need to adjust them downwards.
+ */
+.wp-block-query-pagination:has(.wp-block-query-pagination-numbers.is-style-apsc-page-numbers) .wp-block-query-pagination-next-arrow,
+.wp-block-query-pagination:has(.wp-block-query-pagination-numbers.is-style-apsc-page-numbers) .wp-block-query-pagination-previous-arrow {
+	position: relative;
+	top: 7px;
+}

@@ -1,0 +1,64 @@
+/**
+ * APSC Tabs Styles.
+ * Ideally, this might be able to go away in the future, if the APSC
+ * style guide can be adjusted to be consistent with the tab block.
+ */
+
+/* The APSC Tabs ======================================================================= */
+.wp-block-ubc-tabs.is-style-apsc-tabs,
+.ubc-accordion-tabs.is-style-apsc-tabs {
+	--ubc-tabs-block-tab-nav-top-border-background: transparent;
+	--ubc-tabs-block-tab-nav-background: transparent;
+	--ubc-tabs-block-tab-nav-selected-background: transparent;
+	--ubc-tabs-block-tab-nav-selected-text-color: #012145;
+	--ubc-tabs-block-tab-nav-text-color: #012145;
+	--ubc-tabs-block-tab-nav-border-color: transparent;
+	--ubc-tabs-block-content-border-color: transparent;
+	--ubc-tabs-block-accordion-trigger-background: transparent;
+	--ubc-tabs-block-accordion-trigger-selected-background: transparent;
+}
+
+/**
+ * The main tab controls have a border bottom across the full width, always. Override the APSE
+ * style guide which gives all lists a style type by default.
+ */
+.wp-block-ubc-tabs.is-style-apsc-tabs ul.ubc-accordion-tabs__tab-list,
+.ubc-accordion-tabs.is-style-apsc-tabs ul.ubc-accordion-tabs__tab-list {
+	list-style-type: none;
+	border-bottom: 1px solid #d7e0e7;
+	position: relative;
+}
+
+.wp-block-ubc-tabs.is-style-apsc-tabs ul.ubc-accordion-tabs__tab-list li,
+.ubc-accordion-tabs.is-style-apsc-tabs ul.ubc-accordion-tabs__tab-list li {
+	padding: 0 40px;
+}
+
+.wp-block-ubc-tabs.is-style-apsc-tabs a:hover,
+.ubc-accordion-tabs.is-style-apsc-tabs button:hover {
+	border-bottom: 3.5px solid #00a7e1;
+}
+
+.wp-block-ubc-tabs.is-style-apsc-tabs a.is-selected,
+.wp-block-ubc-tabs.is-style-apsc-tabs a.is-selected:hover,
+.ubc-accordion-tabs.is-style-apsc-tabs button.is-selected,
+.ubc-accordion-tabs.is-style-apsc-tabs button.is-selected:hover {
+	font-weight: 600;
+	border-bottom: 3.5px solid #00a7e1;
+}
+
+.ubc-accordion-tabs.is-style-apsc-tabs button,
+.ubc-accordion-tabs.is-style-apsc-tabs button:hover {
+	width: 100%;
+}
+
+/**
+ * If there's 2 tabs, they each span half the width.
+ */
+.wp-block-ubc-tabs.is-style-apsc-tabs ul.ubc-accordion-tabs__tab-list li:first-child:nth-last-child(2),
+.wp-block-ubc-tabs.is-style-apsc-tabs ul.ubc-accordion-tabs__tab-list li:first-child:nth-last-child(2)~li,
+.ubc-accordion-tabs.is-style-apsc-tabs ul.ubc-accordion-tabs__tab-list li:first-child:nth-last-child(2),
+.ubc-accordion-tabs.is-style-apsc-tabs ul.ubc-accordion-tabs__tab-list li:first-child:nth-last-child(2)~li {
+	padding: 0;
+	width: 50%;
+}

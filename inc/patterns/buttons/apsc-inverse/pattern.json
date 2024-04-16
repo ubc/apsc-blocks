@@ -1,0 +1,6 @@
+{
+	"title": "Inverse Button",
+	"slug": "apsc-patterns/inverse-button",
+	"categories": ["apsc-patterns","apsc-buttons"],
+	"description": "Use on a coloured background (consider WCAG 2.0 contrast requirements)."
+}

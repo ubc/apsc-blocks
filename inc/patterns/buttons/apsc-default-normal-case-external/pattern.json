@@ -1,0 +1,6 @@
+{
+	"title": "Default Button with normal case text and an external link indicator.",
+	"slug": "apsc-patterns/default-button-normal-case-external",
+	"categories": ["apsc-patterns","apsc-buttons"],
+	"description": "Both an external link and a normal-case text button."
+}

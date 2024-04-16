@@ -1,0 +1,19 @@
+/**
+ * APSC Light Grey Accordions
+ */
+.wp-block-pb-accordion-item.is-style-apsc-light-grey .c-accordion__title {
+	background: #e6e6e6;
+	color: #002145;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.75;
+}
+
+.wp-block-pb-accordion-item.is-style-apsc-light-grey .c-accordion__content {
+	border-top: 1px solid #e6e6e6;
+	border-color: transparent #e6e6e6 #e6e6e6;
+	border-style: solid;
+	border-width: 1px 1px 0;
+	padding: 1rem;
+}

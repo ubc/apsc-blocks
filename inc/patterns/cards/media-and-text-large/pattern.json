@@ -1,0 +1,6 @@
+{
+	"title": "Media + Text (Large) Cards",
+	"slug": "apsc-patterns/media-and-text-large-cards",
+	"categories": ["apsc-patterns","apsc-cards"],
+	"description": "A group of Media & Text blocks. The class card-columns__large is applied to the group, links are applied on the image. Two large cards side by side on tablets (based on full width template, viewports wider than 570px). The minimum card width fits the word 'Mechatronics' in the heading."
+}

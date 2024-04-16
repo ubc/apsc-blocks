@@ -1,0 +1,6 @@
+{
+	"title": "Hero with an image, title, subtitle and gradient",
+	"slug": "apsc-patterns/horizontal-card",
+	"categories": ["apsc-patterns","apsc-heroes"],
+	"description": "The default hero which contains all items that can be included."
+}

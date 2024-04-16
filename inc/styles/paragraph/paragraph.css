@@ -1,0 +1,17 @@
+/* A lead paragraph ======================================================================= */
+.wp-block-paragraph.is-style-apsc-lead,
+p.is-style-apsc-lead {
+	line-height: 1.25;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+/**
+ * The APSC css only adds margins to paragraph tags that are DIRECTLY descendants of the entry-content div.
+ * If they’re within a group, for example, none of them get margins.
+ */
+.entry-content > * > p,
+.entry-content > * > * > p,
+.entry-content > * > * > * > p {
+	margin-bottom: 1.5rem;
+}

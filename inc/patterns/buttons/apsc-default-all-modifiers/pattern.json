@@ -1,0 +1,6 @@
+{
+	"title": "Default Button that is full-width, has an external link, and is normal-case.",
+	"slug": "apsc-patterns/default-button-all-modifiers",
+	"categories": ["apsc-patterns","apsc-buttons"],
+	"description": "An example of a button with all of the possible modifiers."
+}

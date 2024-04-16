@@ -1,0 +1,48 @@
+/**
+ * Adjustments for the Query Loop Card Pattern.
+ */
+.wp-block-query.apsc-card-as-query-loop-template .card.wp-block-group a {
+	color: inherit;
+	display: inherit;
+	font-size: inherit;
+	opacity: inherit;
+}
+
+.wp-block-query.apsc-card-as-query-loop-template ul {
+	list-style-type: none;
+}
+
+ .wp-block-query.apsc-card-as-query-loop-template .card__subhead.wp-block-post-terms a,
+ .wp-block-query.apsc-card-as-query-loop-template .wp-block-post-title a {
+	text-decoration: none;
+}
+
+.wp-block-query.apsc-card-as-query-loop-template .card__tags a {
+	background: #e6e6e6;
+	font-size: .875rem;
+	line-height: 1.25;
+	margin: 0 !important;
+	padding: .5rem 1rem;
+	text-decoration: none;
+}
+
+.wp-block-query.apsc-card-as-query-loop-template .card__tags .wp-block-post-terms__separator {
+	display: none;
+}
+
+/**
+ * This is...weird. The Block editor itself does this.
+ */
+body .is-layout-constrained.card > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+/**
+ * When the theme option is set to hide the address bar, a body class of 'apsc-hide-address-bar' is added.
+ * We use that to hide the address bar and the 'to top' container.
+ */
+body.apsc-hide-address-bar #ubc7-unit-footer,
+body.apsc-hide-address-bar #ubc7-footer .ubc7-back-to-top {
+	display: none;
+}

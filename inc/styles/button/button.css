@@ -1,0 +1,169 @@
+/**
+ * Ideally, all of this CSS goes away. It will require some adjustments to the style guide down the road.
+ */
+
+/* The APSC Default Button ======================================================================= */
+.wp-block-button.is-style-apsc-default,
+.wp-block-button.is-style-apsc-primary,
+.wp-block-button.is-style-apsc-secondary,
+.wp-block-button.is-style-apsc-tertiary,
+.wp-block-button.is-style-apsc-inverse {
+	background-color: transparent;
+	border: 1px solid #002145;
+	box-shadow: none;
+	box-sizing: border-box;
+	color: #002145 !important;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1rem;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 1.75;
+	padding: 1rem 2rem;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: background-color .2s ease-out;
+	vertical-align: middle;
+	border-radius: 0;
+	font-family: sans-serif;
+}
+
+.wp-block-button.is-style-apsc-default:hover,
+.wp-block-button.is-style-apsc-default:active,
+.wp-block-button.is-style-apsc-default:focus {
+	box-shadow: none;
+	border-color: #002145;
+	background-color: #002145;
+	color: #fff !important;
+}
+
+.wp-block-button.is-style-apsc-default .wp-block-button__link,
+.wp-block-button.is-style-apsc-primary .wp-block-button__link,
+.wp-block-button.is-style-apsc-default:hover .wp-block-button__link,
+.wp-block-button.is-style-apsc-default:active .wp-block-button__link,
+.wp-block-button.is-style-apsc-default:focus .wp-block-button__link,
+.wp-block-button.is-style-apsc-primary:hover .wp-block-button__link,
+.wp-block-button.is-style-apsc-primary:active .wp-block-button__link,
+.wp-block-button.is-style-apsc-primary:focus .wp-block-button__link,
+.wp-block-button.is-style-apsc-secondary .wp-block-button__link,
+.wp-block-button.is-style-apsc-secondary:hover .wp-block-button__link,
+.wp-block-button.is-style-apsc-secondary:active .wp-block-button__link,
+.wp-block-button.is-style-apsc-secondary:focus .wp-block-button__link,
+.wp-block-button.is-style-apsc-tertiary .wp-block-button__link,
+.wp-block-button.is-style-apsc-tertiary:hover .wp-block-button__link,
+.wp-block-button.is-style-apsc-tertiary:active .wp-block-button__link,
+.wp-block-button.is-style-apsc-tertiary:focus .wp-block-button__link,
+.wp-block-button.is-style-apsc-inverse .wp-block-button__link,
+.wp-block-button.is-style-apsc-inverse:hover .wp-block-button__link,
+.wp-block-button.is-style-apsc-inverse:active .wp-block-button__link,
+.wp-block-button.is-style-apsc-inverse:focus .wp-block-button__link {
+	background-color: transparent;
+	border-width: 0;
+	color: inherit !important;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	padding: 0;
+	text-decoration: none;
+	text-transform: inherit;
+}
+
+/* The APSC Primary Button ======================================================================= */
+body .wp-block-button.is-style-apsc-primary {
+	background-color: #002145;
+	border-color: #002145;
+	box-shadow: none;
+	color: #fff !important;
+}
+
+body .wp-block-button.is-style-apsc-primary:hover,
+body .wp-block-button.is-style-apsc-primary:active,
+body .wp-block-button.is-style-apsc-primary:focus {
+	background-color: #fff;
+	border-color: #002145;
+	box-shadow: none;
+	color: #002145 !important;
+}
+
+/* The APSC Secondary Button ======================================================================= */
+.wp-block-button.is-style-apsc-secondary {
+	border-color: #0055b7;
+	color: #0055b7;
+}
+
+.wp-block-button.is-style-apsc-secondary:hover,
+.wp-block-button.is-style-apsc-secondary:active,
+.wp-block-button.is-style-apsc-secondary:focus {
+	background-color: #0055b7;
+	box-shadow: none;
+	color: #fff !important;
+}
+
+.wp-block-button.is-style-apsc-secondary .wp-block-button__link {
+	color: #0055b7 !important;
+}
+
+/* The APSC Tertiary Button ======================================================================= */
+.wp-block-button.is-style-apsc-tertiary {
+	background-color: #40b4e5;
+	border-color: #002145;
+	box-shadow: none;
+	color: #002145 !important;
+}
+
+.wp-block-button.is-style-apsc-tertiary:hover,
+.wp-block-button.is-style-apsc-tertiary:active,
+.wp-block-button.is-style-apsc-tertiary:focus {
+	background-color: rgba(64, 180, 229, .5);
+	box-shadow: none;
+	color: #fff !important;
+}
+
+/* The APSC Inverse Button ======================================================================= */
+.wp-block-button.is-style-apsc-inverse {
+	background-color: transparent;
+	border-color: #fff;
+	box-shadow: none;
+	color: #fff !important;
+}
+
+.wp-block-button.is-style-apsc-inverse:hover,
+.wp-block-button.is-style-apsc-inverse:active,
+.wp-block-button.is-style-apsc-inverse:focus {
+	border-color: #fff;
+	box-shadow: none;
+	background-color: hsla(0, 0%, 100%, .15);
+	color: #fff !important;
+}
+
+/* The external link modifier ======================================================================= */
+.wp-block-button.is-style-apsc-default.external-link::after,
+.wp-block-button.is-style-apsc-primary.external-link::after,
+.wp-block-button.is-style-apsc-secondary.external-link::after,
+.wp-block-button.is-style-apsc-tertiary.external-link::after,
+.wp-block-button.is-style-apsc-inverse.external-link::after {
+	content: "\f08e";
+	float: right;
+	font-family: FontAwesome;
+	margin-left: 1rem !important;
+}
+
+/* The normal case modifier ======================================================================= */
+.wp-block-button.is-style-apsc-default.normal-case,
+.wp-block-button.is-style-apsc-primary.normal-case,
+.wp-block-button.is-style-apsc-secondary.normal-case,
+.wp-block-button.is-style-apsc-tertiary.normal-case,
+.wp-block-button.is-style-apsc-inverse.normal-case {
+	text-transform: none;
+}
+
+/* The full-width modifier ======================================================================= */
+.wp-block-button.is-style-apsc-default.full-width,
+.wp-block-button.is-style-apsc-primary.full-width,
+.wp-block-button.is-style-apsc-secondary.full-width,
+.wp-block-button.is-style-apsc-tertiary.full-width,
+.wp-block-button.is-style-apsc-inverse.full-width {
+	text-align: start;
+	width: 100%;
+}

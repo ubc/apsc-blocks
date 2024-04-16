@@ -1,0 +1,6 @@
+{
+	"title": "Media + Text (Medium) Cards",
+	"slug": "apsc-patterns/media-and-text-medium-cards",
+	"categories": ["apsc-patterns","apsc-cards"],
+	"description": "A group of Media & Text blocks. The class card-columns__medium is applied to the group, links are applied on the image. Three medium cards side by side (based on full width template, viewports wider than 691px). On smaller screens, the minimum card width-fits the word 'Engineering' in the heading."
+}

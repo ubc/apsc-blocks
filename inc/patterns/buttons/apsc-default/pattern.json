@@ -1,0 +1,6 @@
+{
+	"title": "Default Button",
+	"slug": "apsc-patterns/default-button",
+	"categories": ["apsc-patterns","apsc-buttons"],
+	"description": "The default button style should be used in most cases. UBC Dark Blue border with white background and blue text. Inverses on hover."
+}

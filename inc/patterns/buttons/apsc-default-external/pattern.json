@@ -1,0 +1,6 @@
+{
+	"title": "Default Button with an External Link Indicator",
+	"slug": "apsc-patterns/default-button-external",
+	"categories": ["apsc-patterns","apsc-buttons"],
+	"description": "Use when redirecting user to external webpage."
+}

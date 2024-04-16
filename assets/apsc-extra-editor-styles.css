@@ -1,0 +1,67 @@
+/**
+ * This file is specifically for Block Editor overrides. There are some misalignments between
+ * WordPress core styles, the CLF styles, the Block Editor styles, and the APSC Style Guide. This
+ * file tweaks the editor styles to match the front-end as closely as possible.
+ */
+
+/**
+ * Card Block overrides. ========================================================================
+ *
+ * The card blocks in the editor all have a margin-top except the first card. On the front-end
+ * none of the cards have a margin top so we remove the margin-top from the editor.
+ */
+.editor-styles-wrapper :where(body .is-layout-flow) .card-columns__two .wp-block-media-text.card,
+.editor-styles-wrapper :where(body .is-layout-flow) .card-columns__three .wp-block-media-text.card,
+.editor-styles-wrapper :where(body .is-layout-flow) .card-columns__two .wp-block-group.card,
+.editor-styles-wrapper :where(body .is-layout-flow) .card-columns__three .wp-block-group.card {
+	margin-top: 0;
+}
+
+/**
+ * FontAwesome Include. =======================================================================
+ *
+ * FontAwesome isn't available by default in the editor as it's part of the CLF stylesheet only
+ * loaded in the editor.
+ */
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('https://cdn.ubc.ca/clf/7.0.4/font/font-v4/fontawesome-webfont-ubc-v4.eot');
+	src: url('https://cdn.ubc.ca/clf/7.0.4/font/font-v4/fontawesome-webfont-ubc-v4.eot?#iefix') format('embedded-opentype'), url('https://cdn.ubc.ca/clf/7.0.4/font/font-v4/fontawesome-webfont-ubc-v4.ttf') format('truetype'), url('https://cdn.ubc.ca/clf/7.0.4/font/font-v4/fontawesome-webfont-ubc-v4.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/**
+ * Gutenberg overrides. ==============================================================================
+ *
+ * The gutenberg plugin does some super interesting things. Primarily it decides to use a serif font
+ * by default in the editor. Which is great. We don't want that.
+ */
+:where(.editor-styles-wrapper) {
+	font-family: "Whitney SSm A","Whitney SSm B",Arial,sans-serif;
+}
+
+/**
+ * Just a little nicety. When we're using the hero, it already has a pull-up of 3em to counteract the
+ * padding that is applied by the APSC Styleguide. This means, in the editor, it sits on top of the actual
+ * page title. This is fine, as we use the title block anyway, but it kinda leaves a weird gap at the top
+ * of the screen. It'll be a nicer experience if we but the hero block up to the top. Won't impact front-end.
+ */
+.is-root-container.is-desktop-preview>.ubc-clf-full.apsc-hero {
+	margin-top: 0 !important;
+}
+
+.is-root-container.is-desktop-preview > .ubc-clf-full.apsc-hero:first-child {
+	margin-top: -7.1em !important;
+}
+
+/**
+ * The Footer Graphic
+ */
+@media (min-width: 640px) {
+	.background--svg-feature {
+		background-repeat: no-repeat;
+		background-position: 100% 0%;
+		background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 300' fill='none' style='&%2310;'%3e%3cg clip-path='url(%23clip0)'%3e%3cpath d='M134.438 398.059L227.179 299.55' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M74.5 228.5L206.211 81.587' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M227.078 299.65L206.11 81.6871' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M344.409 82.3232L206.211 81.5872' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M211 257.5L150.611 214.875' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M75 228.5L150.511 214.874' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M227.078 299.65L150.51 214.974' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M344.409 82.322L150.511 214.874' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M206.211 81.587L150.611 214.875' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M344.409 82.3218L128.764 -99.2982' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M206.211 81.5869L128.864 -99.2971' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M344.409 82.3218L46.5 -28.5' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M206.211 81.5869L85.98 -21.5161' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M150.511 214.874L47.5 -27' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M344.409 82.3218L124.489 -62.6292' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M206.211 81.5869L124.59 -62.7281' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M150.511 214.874L124.489 -62.629' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M206.211 81.5869L440.581 6.34091' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M206.211 81.5869L449.449 -15.9931' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M150.511 214.874L322.776 447.171' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M227.078 299.65L160.059 435.451' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M150.511 214.874L207.5 233' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M74.5 228.5L208 298.5' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M227.078 299.65L181.717 361.112' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M206.211 81.5872L177 232.5' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3cpath d='M150.511 214.874L205.5 298.5' stroke='white' stroke-miterlimit='10' stroke-linecap='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath id='clip0'%3e%3crect width='207' height='354' fill='white' transform='translate(0 -25)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+	}
+}
