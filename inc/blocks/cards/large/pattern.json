@@ -1,6 +1,6 @@
 {
 	"title": "Large Card",
 	"slug": "apsc-block-patterns/card-large",
-	"categories": ["apsc-block-patterns"],
+	"categories": ["apsc-patterns", "apsc-cards"],
 	"description": "A single large card."
 }

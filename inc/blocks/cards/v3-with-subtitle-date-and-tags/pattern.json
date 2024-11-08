@@ -1,6 +1,6 @@
 {
 	"title": "v3 With Subtitle, Date, and Tags",
 	"slug": "apsc-block-patterns/card-with-subtitle-date-and-tags",
-	"categories": ["apsc-block-patterns"],
+	"categories": ["apsc-patterns", "apsc-cards"],
 	"description": "A single card with subtitle, date, and tags."
 }

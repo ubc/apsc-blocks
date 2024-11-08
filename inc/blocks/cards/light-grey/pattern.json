@@ -1,6 +1,6 @@
 {
 	"title": "Light Grey Card",
 	"slug": "apsc-block-patterns/card-light-grey",
-	"categories": ["apsc-block-patterns"],
+	"categories": ["apsc-patterns", "apsc-cards"],
 	"description": "A single Light Grey Card"
 }

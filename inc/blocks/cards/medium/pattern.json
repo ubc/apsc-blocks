@@ -1,6 +1,6 @@
 {
 	"title": "Medium Card",
 	"slug": "apsc-block-patterns/card-medium",
-	"categories": ["apsc-block-patterns"],
+	"categories": ["apsc-patterns", "apsc-cards"],
 	"description": "A single medium card."
 }

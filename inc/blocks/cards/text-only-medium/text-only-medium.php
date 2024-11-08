@@ -1,6 +1,6 @@
 <!-- wp:group {"className":"card "} -->
 <div class="wp-block-group card"><!-- wp:heading -->
-	<h2 class="wp-block-heading">Text Onnly Light Grey Content card</h2>
+	<h2 class="wp-block-heading">Text Only Medium Light Grey Content card</h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph -->
