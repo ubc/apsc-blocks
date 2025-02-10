@@ -33,7 +33,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 define( 'UBC_APSCBLOCKS_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'UBC_APSCBLOCKS_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 
-define( 'UBC_APSCBLOCKS_DESIGN_SYSTEM_URL', 'https://release-design-system-3-0--apsc-design-system.netlify.app/apsc-base.min.css' );
+define( 'UBC_APSCBLOCKS_DESIGN_SYSTEM_URL', 'https://apsc-design-system.netlify.app/apsc-base.min.css' );
 define( 'UBC_APSCBLOCKS_DESIGN_SYSTEM_VERSION', '1.0.0' );
 
 require_once UBC_APSCBLOCKS_PLUGIN_DIR . 'inc/class-apsc-blocks.php';
