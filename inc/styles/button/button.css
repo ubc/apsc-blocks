@@ -3,7 +3,7 @@
  */
 
 /* The APSC Default Button ======================================================================= */
-.wp-block-button.is-style-apsc-default,
+/* .wp-block-button.is-style-apsc-default,
 .wp-block-button.is-style-apsc-primary,
 .wp-block-button.is-style-apsc-secondary,
 .wp-block-button.is-style-apsc-tertiary,
@@ -38,6 +38,7 @@
 	color: #fff !important;
 }
 
+
 .wp-block-button.is-style-apsc-default .wp-block-button__link,
 .wp-block-button.is-style-apsc-primary .wp-block-button__link,
 .wp-block-button.is-style-apsc-default:hover .wp-block-button__link,
@@ -67,10 +68,10 @@
 	padding: 0;
 	text-decoration: none;
 	text-transform: inherit;
-}
+} */
 
 /* The APSC Primary Button ======================================================================= */
-body .wp-block-button.is-style-apsc-primary {
+/* body .wp-block-button.is-style-apsc-primary {
 	background-color: #002145;
 	border-color: #002145;
 	box-shadow: none;
@@ -84,10 +85,10 @@ body .wp-block-button.is-style-apsc-primary:focus {
 	border-color: #002145;
 	box-shadow: none;
 	color: #002145 !important;
-}
+} */
 
-/* The APSC Secondary Button ======================================================================= */
-.wp-block-button.is-style-apsc-secondary {
+/* The APSC Secondary Button =======================================================================*/
+/* .wp-block-button.is-style-apsc-secondary {
 	border-color: #0055b7;
 	color: #0055b7;
 }
@@ -102,10 +103,10 @@ body .wp-block-button.is-style-apsc-primary:focus {
 
 .wp-block-button.is-style-apsc-secondary .wp-block-button__link {
 	color: #0055b7 !important;
-}
+} */
 
-/* The APSC Tertiary Button ======================================================================= */
-.wp-block-button.is-style-apsc-tertiary {
+/* The APSC Tertiary Button =======================================================================*/
+/* .wp-block-button.is-style-apsc-tertiary {
 	background-color: #40b4e5;
 	border-color: #002145;
 	box-shadow: none;
@@ -118,10 +119,12 @@ body .wp-block-button.is-style-apsc-primary:focus {
 	background-color: rgba(64, 180, 229, .5);
 	box-shadow: none;
 	color: #fff !important;
-}
+} */
+
+
 
 /* The APSC Inverse Button ======================================================================= */
-.wp-block-button.is-style-apsc-inverse {
+/* .wp-block-button.is-style-apsc-inverse {
 	background-color: transparent;
 	border-color: #fff;
 	box-shadow: none;
@@ -135,10 +138,10 @@ body .wp-block-button.is-style-apsc-primary:focus {
 	box-shadow: none;
 	background-color: hsla(0, 0%, 100%, .15);
 	color: #fff !important;
-}
+} */
 
 /* The external link modifier ======================================================================= */
-.wp-block-button.is-style-apsc-default.external-link::after,
+/* .wp-block-button.is-style-apsc-default.external-link::after,
 .wp-block-button.is-style-apsc-primary.external-link::after,
 .wp-block-button.is-style-apsc-secondary.external-link::after,
 .wp-block-button.is-style-apsc-tertiary.external-link::after,
@@ -147,23 +150,23 @@ body .wp-block-button.is-style-apsc-primary:focus {
 	float: right;
 	font-family: FontAwesome;
 	margin-left: 1rem !important;
-}
+} */
 
 /* The normal case modifier ======================================================================= */
-.wp-block-button.is-style-apsc-default.normal-case,
+/* .wp-block-button.is-style-apsc-default.normal-case,
 .wp-block-button.is-style-apsc-primary.normal-case,
 .wp-block-button.is-style-apsc-secondary.normal-case,
 .wp-block-button.is-style-apsc-tertiary.normal-case,
 .wp-block-button.is-style-apsc-inverse.normal-case {
 	text-transform: none;
-}
+} */
 
 /* The full-width modifier ======================================================================= */
-.wp-block-button.is-style-apsc-default.full-width,
+/* .wp-block-button.is-style-apsc-default.full-width,
 .wp-block-button.is-style-apsc-primary.full-width,
 .wp-block-button.is-style-apsc-secondary.full-width,
 .wp-block-button.is-style-apsc-tertiary.full-width,
 .wp-block-button.is-style-apsc-inverse.full-width {
 	text-align: start;
 	width: 100%;
-}
+} */
