@@ -6,20 +6,12 @@
 		</a>
 	</figure>
 	<div class="wp-block-media-text__content">
-		<!-- wp:paragraph {"placeholder":"Content…","className":"card__subhead"} -->
-		<p class="card__subhead">UBC APPLIED SCIENCE</p>
-		<!-- /wp:paragraph -->
-
 		<!-- wp:heading -->
 		<h2 class="wp-block-heading">Shaping tomorrow's cities: SCARP and Geography introduce an innovative Major in Urban Studies</h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"className":"card__body"} -->
 		<p class="card__body">For the first time in human history, the majority of the world's population lives in cities. And over the next century, the world’s net population growth will take place in urban regions. &nbsp;</p>
-		<!-- /wp:paragraph -->
-
-		<!-- wp:paragraph {"className":"card__footer"} -->
-		<p class="card__footer">December 20, 2023</p>
 		<!-- /wp:paragraph -->
 	</div>
 </div>
