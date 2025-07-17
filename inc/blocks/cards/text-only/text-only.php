@@ -1,5 +1,6 @@
 <!-- wp:group {"className":"card "} -->
-<div class="wp-block-group card"><!-- wp:heading -->
+<div class="wp-block-group card">
+	<!-- wp:heading -->
 	<h2 class="wp-block-heading">Text-Only card</h2>
 	<!-- /wp:heading -->
 

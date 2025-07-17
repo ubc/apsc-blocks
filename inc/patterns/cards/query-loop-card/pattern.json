@@ -1,0 +1,9 @@
+{
+    "title": "Vertical Card Specifically for Query Loop",
+    "slug": "apsc-patterns/query-loop-card",
+    "categories": [
+        "apsc-patterns",
+        "apsc-cards"
+    ],
+    "description": "A single card specifically for the Query Loop."
+}
