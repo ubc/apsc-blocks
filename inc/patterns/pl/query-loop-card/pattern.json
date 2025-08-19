@@ -3,7 +3,7 @@
     "slug": "apsc-patterns/query-loop-card",
     "categories": [
         "apsc-patterns",
-        "apsc-cards"
+        "apsc-pl"
     ],
     "description": "A single card specifically for the Query Loop."
 }
