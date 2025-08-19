@@ -5,8 +5,8 @@
     <!-- wp:post-template -->
         <!-- wp:group {"metadata":{"name":""},"className":"card  ","layout":{"type":"constrained"}} -->
         <div class="wp-block-group card">
-            <!-- wp:post-featured-image {"className": "wp-block-media-text__media", "isLink":true,"aspectRatio":"4/3","style":{"spacing":{"margin":{"top":"0px","right":"0px","left":"0px","bottom":"1.5rem"}}}} /-->
-            <!-- wp:post-title {"isLink":true,"style":{"typography":{"lineHeight":"1.25","fontSize":"1.5rem"},"elements":{"link":{"color":{"text":"var:preset|color|primary-blue"},":hover":{"color":{"text":"var:preset|color|primary-blue"}}}},"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0.5rem","left":"0px"}}},"textColor":"primary-blue"} /-->
+            <!-- wp:post-featured-image {"className": "wp-block-media-text__media", "isLink":true} /-->
+            <!-- wp:post-title {"isLink":true} /-->
             <!-- wp:post-date /-->
             <!-- wp:post-excerpt /-->
         </div>
