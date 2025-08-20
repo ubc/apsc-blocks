@@ -1,14 +1,12 @@
-
-
-<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date"},"style":{"listStyle":"none"}} -->
+<!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date"}} -->
 <div class="wp-block-query">
-    <!-- wp:post-template -->
-        <!-- wp:group {"metadata":{"name":""},"className":"card  ","layout":{"type":"constrained"}} -->
+    <!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+        <!-- wp:group {"metadata":{"name":""}} -->
         <div class="wp-block-group card">
-            <!-- wp:post-featured-image {"className": "wp-block-media-text__media", "isLink":true} /-->
+            <!-- wp:post-featured-image {"isLink":true} /-->
             <!-- wp:post-title {"isLink":true} /-->
-            <!-- wp:post-date /-->
             <!-- wp:post-excerpt /-->
+            <!-- wp:post-date /-->
         </div>
         <!-- /wp:group -->
     <!-- /wp:post-template -->
