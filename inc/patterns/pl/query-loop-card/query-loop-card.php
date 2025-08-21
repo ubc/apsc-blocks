@@ -3,9 +3,10 @@
     <!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
         <!-- wp:group {"metadata":{"name":""}} -->
         <div class="wp-block-group card">
-            <!-- wp:post-featured-image {"isLink":true} /-->
+            <!-- wp:post-featured-image {"isLink":true, "className":"wp-block-media-text__media"} /-->
             <!-- wp:post-title {"isLink":true} /-->
-            <!-- wp:post-excerpt /-->
+            <!-- wp:post-excerpt {"className":"wp-block-media-text__content"} /-->
+            <!-- wp:post-terms {"term":"post_tag", "className":"card__tags"} /-->
             <!-- wp:post-date /-->
         </div>
         <!-- /wp:group -->
