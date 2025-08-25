@@ -6,6 +6,7 @@
             <!-- wp:post-featured-image {"isLink":true, "className":"wp-block-media-text__media"} /-->
             <!-- wp:post-title {"isLink":true} /-->
             <!-- wp:post-excerpt {"className":"wp-block-media-text__content"} /-->
+            <!-- wp:post-terms {"term":"category", "className":"card__categories"} /-->
             <!-- wp:post-terms {"term":"post_tag", "className":"card__tags"} /-->
             <!-- wp:post-date /-->
         </div>
