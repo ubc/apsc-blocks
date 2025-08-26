@@ -185,9 +185,9 @@ class APSC_Blocks {
 		);
 
 		register_block_pattern_category(
-			'apsc-pl',
+			'apsc-post-list',
 			array(
-				'label' => esc_html__( 'APSC Posts Lists', 'apsc-blocks' ),
+				'label' => esc_html__( 'APSC Post List', 'apsc-blocks' ),
 			)
 		);
 	}//end init__register_apsc_block_pattern_category()
