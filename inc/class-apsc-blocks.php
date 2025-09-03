@@ -183,6 +183,13 @@ class APSC_Blocks {
 				'label' => esc_html__( 'APSC Footers', 'apsc-blocks' ),
 			)
 		);
+
+		register_block_pattern_category(
+			'apsc-post-list',
+			array(
+				'label' => esc_html__( 'APSC Post List', 'apsc-blocks' ),
+			)
+		);
 	}//end init__register_apsc_block_pattern_category()
 
 	/**
