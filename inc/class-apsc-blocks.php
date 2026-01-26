@@ -352,7 +352,7 @@ class APSC_Blocks {
 	 */
 	public function enqueue_multiple__apsc_extra_pattern_styles() {
 
-		$css_file_path = 'assets/apsc-extra-pattern-style.css';
+		$css_file_path = 'assets/apsc-extra-pattern-style.min.css';
 
 		// Use plugins_url to get the full URL to the CSS file.
 		$css_file_url = UBC_APSCBLOCKS_PLUGIN_URL . $css_file_path;
@@ -392,7 +392,7 @@ class APSC_Blocks {
 			if ( $file->isDir() ) {
 				$block_name        = $file->getFilename();
 				$relative_js_path  = "inc/styles/{$block_name}/{$block_name}.js";
-				$relative_css_path = "inc/styles/{$block_name}/{$block_name}.css";
+				$relative_css_path = "inc/styles/{$block_name}/{$block_name}.min.css";
 				$js_file_url       = UBC_APSCBLOCKS_PLUGIN_URL . $relative_js_path;
 				$css_file_url      = UBC_APSCBLOCKS_PLUGIN_URL . $relative_css_path;
 				$js_file_path      = UBC_APSCBLOCKS_PLUGIN_DIR . $relative_js_path;

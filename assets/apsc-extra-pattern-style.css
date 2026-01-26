@@ -1,41 +1,50 @@
+/* The CSS loaded by the block is the minified version of this file
+*  minifed version filename: apsc-extra-pattern-style.min.css
+*/
 /**
  * Adjustments for the Query Loop Card Pattern.
  */
 .wp-block-query.apsc-card-as-query-loop-template .card.wp-block-group a {
-	color: inherit;
-	display: inherit;
-	font-size: inherit;
-	opacity: inherit;
+  color: inherit;
+  display: inherit;
+  font-size: inherit;
+  opacity: inherit;
 }
 
 .wp-block-query.apsc-card-as-query-loop-template ul {
-	list-style-type: none;
+  list-style-type: none;
 }
 
- .wp-block-query.apsc-card-as-query-loop-template .card__subhead.wp-block-post-terms a,
- .wp-block-query.apsc-card-as-query-loop-template .wp-block-post-title a {
-	text-decoration: none;
+.wp-block-query.apsc-card-as-query-loop-template
+  .card__subhead.wp-block-post-terms
+  a,
+.wp-block-query.apsc-card-as-query-loop-template .wp-block-post-title a {
+  text-decoration: none;
 }
 
 .wp-block-query.apsc-card-as-query-loop-template .card__tags a {
-	background: #e6e6e6;
-	font-size: .875rem;
-	line-height: 1.25;
-	margin: 0 !important;
-	padding: .5rem 1rem;
-	text-decoration: none;
+  background: #e6e6e6;
+  font-size: 0.875rem;
+  line-height: 1.25;
+  margin: 0 !important;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
 }
 
-.wp-block-query.apsc-card-as-query-loop-template .card__tags .wp-block-post-terms__separator {
-	display: none;
+.wp-block-query.apsc-card-as-query-loop-template
+  .card__tags
+  .wp-block-post-terms__separator {
+  display: none;
 }
 
 /**
  * This is...weird. The Block editor itself does this.
  */
-body .is-layout-constrained.card > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
-	margin-left: 0 !important;
-	margin-right: 0 !important;
+body
+  .is-layout-constrained.card
+  > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 /**
@@ -44,5 +53,5 @@ body .is-layout-constrained.card > :where(:not(.alignleft):not(.alignright):not(
  */
 body.apsc-hide-address-bar #ubc7-unit-footer,
 body.apsc-hide-address-bar #ubc7-footer .ubc7-back-to-top {
-	display: none;
+  display: none;
 }
